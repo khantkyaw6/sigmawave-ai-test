@@ -1,0 +1,50 @@
+{
+	"name": "boilerplate",
+	"version": "1.0.0",
+	"description": "",
+	"main": "server.js",
+	"type": "module",
+	"scripts": {
+		"start": "nodemon server.js",
+		"test": "jest"
+	},
+	"author": "",
+	"license": "ISC",
+	"dependencies": {
+		"@sendgrid/mail": "^7.7.0",
+		"aws-sdk": "^2.1048.0",
+		"axios": "^0.24.0",
+		"bcryptjs": "^2.4.3",
+		"body-parser": "^1.19.2",
+		"bowser": "^2.11.0",
+		"cors": "^2.8.5",
+		"crypto-js": "^4.1.1",
+		"dotenv": "^10.0.0",
+		"dotenvenc": "^3.0.1",
+		"express": "^4.17.1",
+		"express-async-handler": "^1.2.0",
+		"express-rate-limit": "^7.3.1",
+		"form-data": "^4.0.0",
+		"http-status-codes": "^2.3.0",
+		"ipaddr.js": "^2.0.1",
+		"javascript-obfuscator": "^4.1.0",
+		"jsonwebtoken": "^8.5.1",
+		"lodash": "^4.17.21",
+		"moment": "^2.29.4",
+		"mongoose": "^6.0.12",
+		"multer": "^1.4.5-lts.1",
+		"nodemon": "^2.0.15",
+		"supertest": "^7.0.0",
+		"swagger-jsdoc": "^6.2.8",
+		"swagger-ui-express": "^5.0.0",
+		"unix-timestamp": "^1.0.4",
+		"uuid": "^8.3.2"
+	},
+	"devDependencies": {
+		"@babel/core": "^7.24.5",
+		"@babel/preset-env": "^7.24.5",
+		"@shelf/jest-mongodb": "^4.3.1",
+		"babel-jest": "^29.7.0",
+		"jest": "^29.7.0"
+	}
+}
